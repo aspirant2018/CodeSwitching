@@ -29,3 +29,4 @@ for tweet in corpus:
 shuffle(filtered_corpus)
 train_set = filtered_corpus[:int(.8 * len(filtered_corpus))]
 test_set = filtered_corpus[int(.8 * len(filtered_corpus)):]
+
